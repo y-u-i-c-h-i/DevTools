@@ -3,6 +3,8 @@
 
 call :StartApp "C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE" "OUTLOOK.EXE"
 
+call :StartApp "C:\Users\shiom\AppData\Local\slack\slack.exe" "slack.exe"
+
 call :StartTeams C:\Users\d366186\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe" "Teams.exe"
 
 exit /b
